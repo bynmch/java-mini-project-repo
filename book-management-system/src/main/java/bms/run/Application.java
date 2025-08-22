@@ -22,7 +22,7 @@ public class Application {
             System.out.print("메뉴를 선택하세요.: ");
             int choice = sc.nextInt();
             switch (choice) {
-                case 1: break;
+                case 1: bs.selectAllBooks(); break;
                 case 2: break;
                 case 3: break;
                 case 4: break;
